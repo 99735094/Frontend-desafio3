@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kumbh Sans;
+}
+body{
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 100%;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container{
+    width: 81.5rem;
+    height: 820px;
+    background-color: white;
+    
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e2e2e2;
+}
+nav{
+    width: 50%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.logo{
+    width: 100px;
+    height: 20px;
+    margin-left: 100px;
+    
+}
+.icons{
+    display: flex;
+    gap: 40px;
+    margin-right: 130px;
+    align-items: center;
+}
+.icon-carrinho{
+    width: 20px;
+    height: 20px;
+}
+.icon-foto{
+    width: 50px;
+    height: 50px;
+}
+a{
+    color: #a18181;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 37.125rem;
+    
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    flex: 1;
+}
+.Foto-produto{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 11.25rem;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.carrocel{
+    display: flex;
+    margin-left: 11.25rem;
+}
+.imagem{
+   
+    width: 78px;
+    height: 78px;
+    margin: 10px;
+    border-radius: 10px;
+} 
+.descritivo{
+    flex: 1;
+    padding-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo{
+    color:#e08814;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+.descricao{
+    font-size: 49px;
+}
+.pp{ 
+    margin: 25px 0px;
+
+    width: 480px;
+}
+p{
+    width: 100%;
+    color: #a18181;
+}
+.preco{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.valor-pago{
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.desconto{
+    color:#a18181;
+}
+.porcentagem{
+    width: 35px;
+    height: 20px;
+    background-color:#edc791 ;
+    margin-top: 5px;
+    border-radius: 7px;
+   
+    
+}
+.porcento{
+    color:#e08814;
+    font-size: 16px;
+   
+}
+.compra{
+    display: flex;
+    
+}
+.tirar{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color:#e08814;
+    font-size: 20px;
+}
+.botar{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color:#e08814;
+    font-size: 20px;
+}
+.visor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color:black;
+    font-size: 20px;
+}
+.Add{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ed4613;
+    color:white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+    
+  
